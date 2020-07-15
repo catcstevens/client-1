@@ -20,7 +20,7 @@ function Copyright() {
 	  <Typography variant="body2" color="textSecondary" align="center">
 		{'Copyright © '}
 		<Link color="inherit" href="https://material-ui.com/">
-		  Your Website
+		  Tooth Inc
 		</Link>{' '}
 		{new Date().getFullYear()}
 		{'.'}
@@ -134,6 +134,7 @@ const Login = ({ history }) => {
 				  autoFocus
 				/>
 				<TextField
+				data-cy="password"
 				  variant="outlined"
 				  margin="normal"
 				  required
